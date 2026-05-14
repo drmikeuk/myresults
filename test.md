@@ -6,7 +6,7 @@ sortTitle: "Page"
 
 progression: "y"
 asc: "1002"
-marksInclude: "marks2"
+marksInclude: "marksProgress"
 ascInclude: "1002"
 progressionInclude: "1progressing"
 

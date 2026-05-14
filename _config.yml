@@ -11,4 +11,12 @@ exclude: ["README.md"]
 # Extra plugin to create page per item from data sources eg CSV
 # https://github.com/avillafiorita/jekyll-datapage_gen
 
-# todo...
+plugins:
+  - jekyll-datapage-generator
+
+page_gen:
+  - data: 'allmocks'
+    template: 'mock'
+    dir: 'mock'
+    name_expr: 'record["asc"]'
+    title: 'title'

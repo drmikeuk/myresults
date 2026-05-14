@@ -1,5 +1,6 @@
 ﻿no,title,asc,progression,marksInclude,ascInclude,progressionInclude
-1,enrolments,,n,marks0,,
-2,1002 satisfactory ,1002,y,marks2,1002,1progressing
-3,1003 compensated,1003,y,marks2,100345,1progressing
-4,1013 unsatisfactory,1013,y,marks2,1013,2proceeding
+1,Enrolments,Enrolments,n,marksTooEarly,,
+2,Exclusions,Exclusions,n,marksExclude,,
+3,1002 satisfactory ,1002,y,marksProgress,1002,1progressing
+4,1003 compensated,1003,y,marksProgress,100345,1progressing
+5,1013 unsatisfactory,1013,y,marksFail,1013,2proceeding
