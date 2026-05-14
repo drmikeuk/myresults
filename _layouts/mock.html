@@ -1,0 +1,54 @@
+---
+layout: default
+---
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+
+<h1>My Results</h1>
+
+<form>
+<div class="form-group row">
+    <label for="course" class="col-sm-2 col-form-label">Course</label>
+    <div class="col-sm-10">
+      <select class="custom-select" id="course">
+          <option selected>BSc Hons Chemistry</option>
+      </select>
+    </div>
+  </div>
+</form>
+
+
+
+<!-- PROGRESSION -->   
+{% if page.progression == "y" %}
+{% assign asc = page.ascInclude | append: ".html" %}
+{% assign progression = page.progressionInclude | append: "Header.html" %}
+<h2>Progression</h2>
+{% include {{asc}} %}
+{% include {{progression}} %}
+{% endif %}
+ 
+
+
+<!-- MARKS -->   
+<h2>Marks</h2>
+<p>Your marks will appear below once they’re published.<br/>
+Marks for assessments taken in the next academic year will show against original year.</p>
+
+{% assign marks = page.marksInclude | append: ".html" %}
+{% include {{marks}} %}
+
+<p>If you have queries about your module results, please contact either your Personal Tutor, Here For You Guides or Student Services.</p>
+
+
+<!-- PROGRESSION FOOTER -->   
+{% if page.progression == "y" %}
+{% assign progression = page.progressionInclude | append: "Footer.html" %}
+{% include {{progression}} %}
+{% endif %}
+
+    </div>
+  </div>
+</div>

@@ -1,0 +1,14 @@
+# Site settings
+title: "My Results"
+baseurl: "" # the subpath of your site, e.g. /blog
+#url: "http://yourdomain.com" # the base hostname & protocol for your site
+port: 			  4130
+
+# Build settings
+#markdown: kramdown
+exclude: ["README.md"]
+
+# Extra plugin to create page per item from data sources eg CSV
+# https://github.com/avillafiorita/jekyll-datapage_gen
+
+# todo...

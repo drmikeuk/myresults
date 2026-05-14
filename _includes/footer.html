@@ -1,0 +1,28 @@
+<!-- FOOTER -->
+<div class="footer">
+  <div class="container">
+    <p><i class="fas fa-info-circle" aria-hidden="true"></i> Elements for this page:</p>
+    <ul>
+      <li>{{page.title}}</li>
+      <li>ASC: {{page.asc}}</li>
+      <li>ASC include: {{page.ascInclude}}</li>
+      <li>Progression include: {{page.progressionInclude}}</li>
+      <li>Marks include: {{page.marksInclude}}</li>
+    </ul>                       
+  </div>
+</div>
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="{{ "/vendor/jquery-3.3.1.slim.min.js " | prepend: site.baseurl }}"></script>
+<script src="{{ "/vendor/popper.min.js " | prepend: site.baseurl }}"></script>
+<script src="{{ "/vendor/bootstrap-4.3.1.min.js " | prepend: site.baseurl }}"></script>
+
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-74356418-3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-xxx-x');
+</script>
