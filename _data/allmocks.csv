@@ -1,6 +1,9 @@
 ﻿no,title,asc,progression,marksInclude,ascInclude,progressionInclude
 1,Enrolments,Enrolments,n,marksTooEarly,,
-2,Exclusions,Exclusions,n,marksExclude,,
-3,1002 satisfactory ,1002,y,marksProgress,1002,1progressing
-4,1003 compensated,1003,y,marksProgress,100345,1progressing
-5,1013 unsatisfactory,1013,y,marksFail,1013,2proceeding
+2,Semester 1 marks,Marks,n,marksSemester1,,
+3,Exclusions semester 1,MarksExclusions1,n,marksTooEarly,,
+4,Exclusions semester 2,MarksExclusions2,y,marksExclude,7777,7exclusion
+5,1001 pending,1001,y,marksExclude,100108,5pending
+6,1002 satisfactory ,1002,y,marksProgress,1002,1progressing
+7,1003 compensated,1003,y,marksProgress,100345,1progressing
+8,1013 unsatisfactory,1013,y,marksFail,1013,2proceeding

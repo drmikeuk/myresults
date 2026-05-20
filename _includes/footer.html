@@ -1,6 +1,7 @@
 <!-- FOOTER -->
 <div class="footer">
   <div class="container">
+{% if page.progression %}
     <p><i class="fas fa-info-circle" aria-hidden="true"></i> Elements for this page:</p>
     <ul>
       <li>{{page.title}}</li>
@@ -8,7 +9,9 @@
       <li>ASC include: {{page.ascInclude}}</li>
       <li>Progression include: {{page.progressionInclude}}</li>
       <li>Marks include: {{page.marksInclude}}</li>
-    </ul>      
+    </ul>     
+{% endif %}
+
     <p><i>Mockups are to help explore options; they may not reflect the final solution.</i></p>                 
   </div>
 </div>
