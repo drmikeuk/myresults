@@ -6,4 +6,40 @@
 5,1001 pending,1001,y,marksExclude,100108,5pending
 6,1002 satisfactory ,1002,y,marksProgress,1002,1progressing
 7,1003 compensated,1003,y,marksProgress,100345,1progressing
-8,1013 unsatisfactory,1013,y,marksFail,1013,2proceeding
+8,1004 compensated,1004,y,marksProgress,100345,1progressing
+9,1005 compensated,1005,y,marksProgress,100345,1progressing
+10,1007 satisfactory ,1007,y,marksProgress,1007,xxxxxxx
+11,1008 blocked ,1008,y,marksExclude,100108,xxxxxxx
+12,1009 retake stages  ,1009,y,marksFail,10091011,xxxxxxx
+13,1010 retake stages  ,1010,y,marksFail,10091011,xxxxxxx
+14,1011 retake stages  ,1011,y,marksFail,10091011,xxxxxxx
+15,1012 unsatisfactory ,1012,y,marksFail,1012,xxxxxxx
+16,1013 unsatisfactory,1013,y,marksFail,1013,2proceeding
+17,1014 unsatisfactory,1014,y,marksFail,101415,xxxxxxx
+18,1015 unsatisfactory,1015,y,marksFail,101415,xxxxxxx
+19,1016 unsatisfactory,1016,y,marksFail,1016,xxxxxxx
+20,1017 unsatisfactory,1017,y,marksFail,1017,xxxxxxx
+21,1018 unsatisfactory,1018,y,marksFail,1018,xxxxxxx
+22,1019 2nd reassessments,1019,y,marksFail,1019,xxxxxxx
+23,1020 unsatisfactory,1020,y,marksFail,1020,xxxxxxx
+24,1021 unsatisfactory ,1021,y,marksFail,1021,xxxxxxx
+25,1022 finals ,1022,y,marksFail,1022,xxxxxxx
+26,1023 optional PSRB,1023,y,marksFail,1023,xxxxxxx
+27,1026 unsatisfactory,1026,y,marksFail,1026,xxxxxxx
+28,1027 unsatisfactory,1027,y,marksFail,1027,xxxxxxx
+29,1028 unsatisfactory,1028,y,marksFail,1028,xxxxxxx
+30,1029 unsatisfactory,1029,y,marksFail,1029,xxxxxxx
+31,1030 transfer no progressn,1030,y,marksFail,1030,xxxxxxx
+32,1033 mid stage PT ,1033,y,marksFail,1033,xxxxxxx
+33,1038 unable confirm,1038,y,marksFail,1038,xxxxxxx
+34,1041 unsatisfactory,1041,y,marksFail,1041,xxxxxxx
+35,1042 unsatisfactory,1042,y,marksFail,1042,xxxxxxx
+36,1046 unsatisfactory,1046,y,marksFail,1046,xxxxxxx
+37,1047 unsatisfactory,1047,y,marksFail,1047,xxxxxxx
+38,1048 unsatisfactory,1048,y,marksFail,1048,xxxxxxx
+39,1049 unsatisfactory,1049,y,marksFail,1049,xxxxxxx
+40,1095 unable confirm,1095,y,marksFail,1095-9,xxxxxxx
+41,1096 unable confirm,1096,y,marksFail,1095-9,xxxxxxx
+42,1097 unable confirm,1097,y,marksFail,1095-9,xxxxxxx
+43,1098 unable confirm,1098,y,marksFail,1095-9,xxxxxxx
+44,1099 unable confirm,1099,y,marksFail,1095-9,xxxxxxx

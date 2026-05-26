@@ -14,7 +14,7 @@ layout: default
           <ul>
   {% assign mocks = site.data.allmocks | where: 'progression', 'n'  %}
   {% for mock in mocks %}
-  {% assign link = mock.asc | downcase | remove: " " | prepend: "/mock/"| append: ".html" %}
+  {% assign link = mock.asc | downcase | remove: " " | prepend: "/myresults/mock/"| append: ".html" %}
             <li><a href="{{ link }}">{{mock.title}}</a></li>
   {% endfor %}
           </ul>
@@ -23,7 +23,7 @@ layout: default
           <ul>
   {% assign mocks = site.data.allmocks | where: 'progression', 'y'  %}
   {% for mock in mocks %}
-  {% assign link = mock.asc | prepend: "/mock/"| append: ".html" %}
+  {% assign link = mock.asc | downcase | remove: " " | prepend: "/myresults/mock/"| append: ".html" %}
             <li><a href="{{ link }}">{{mock.title}}</a></li>
   {% endfor %}
           </ul>
