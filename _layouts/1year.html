@@ -1,7 +1,7 @@
 ---
 layout: default
-brand: mocks
-stub: mock
+brand: 1year
+stub: 1year
 ---
 
 <div class="container">
@@ -39,7 +39,7 @@ stub: mock
 <p>Your marks will appear below once they’re published.<br/>
 Marks for assessments taken in the next academic year will show against original year.</p>
 
-{% assign marks = page.marksInclude | append: ".html" %}
+{% assign marks = page.marksInclude | append: ".single.html" %}
 {% include {{marks}} %}
 
 <p>If you have queries about your module results, please contact either your Personal Tutor, Here For You Guides or Student Services.</p>

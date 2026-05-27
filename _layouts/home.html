@@ -14,7 +14,7 @@ layout: default
           <ul>
   {% assign mocks = site.data.allmocks | where: 'progression', 'n'  %}
   {% for mock in mocks %}
-  {% assign link = mock.asc | downcase | remove: " " | prepend: "/myresults/mock/"| append: ".html" %}
+  {% assign link = mock.asc | downcase | remove: " " | append: ".html" %}
             <li><a href="{{ link }}">{{mock.title}}</a></li>
   {% endfor %}
           </ul>
@@ -23,14 +23,14 @@ layout: default
           <ul>
   {% assign mocks = site.data.allmocks | where: 'progression', 'y'  %}
   {% for mock in mocks %}
-  {% assign link = mock.asc | downcase | remove: " " | prepend: "/myresults/mock/"| append: ".html" %}
+  {% assign link = mock.asc | downcase | remove: " " | append: ".html" %}
             <li><a href="{{ link }}">{{mock.title}}</a></li>
   {% endfor %}
           </ul>
 
 
           <h2>Footer variants</h2>
- <table class="table table-sm">
+<table class="table table-sm">
 <thead>
 <tr>
 <th>Footer</th>
@@ -40,27 +40,27 @@ layout: default
 <tbody>
 <tr>
 <td>Award</td>
-<td><a href="/myresults/mock/1007.html">1007 satisfactory award</a></td>
+<td><a href="1007.html">1007 satisfactory award</a></td>
 </tr>
 <tr>
 <td>Progressing</td>
-<td><a href="/myresults/mock/1002.html">1002 satisfactory</a></td>
+<td><a href="1002.html">1002 satisfactory</a></td>
 </tr>
 <tr>
 <td>Proceeding (in attend.)</td>
-<td><a href="/myresults/mock/1013.html">1013 unsatisfactory reassessment req</a></td>
+<td><a href="1013.html">1013 unsatisfactory reassessment req</a></td>
 </tr>
 <tr>
 <td>Proceeding (NOT in attend.)</td>
-<td><a href="/myresults/mock/1015.html">1015 unsatisfactory first sits</a></td>
+<td><a href="1015.html">1015 unsatisfactory first sits</a></td>
 </tr>
 <tr>
 <td>Termination</td>
-<td><a href="/myresults/mock/1026.html">1026 unsatisfactory academic failure</a></td>
+<td><a href="1026.html">1026 unsatisfactory academic failure</a></td>
 </tr>
 <tr>
 <td>Pending</td>
-<td><a href="/myresults/mock/1038.html">1038 unable to confirm</a></td>
+<td><a href="1038.html">1038 unable to confirm</a></td>
 </tr>
 </tbody>
 </table>

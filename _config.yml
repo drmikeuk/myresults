@@ -20,3 +20,21 @@ page_gen:
     dir: 'mock'
     name_expr: 'record["asc"]'
     title: 'title'
+
+  - data: 'allmocks'
+    template: 'alt'
+    dir: 'alt'
+    name_expr: 'record["asc"]'
+    title: 'title'
+
+  - data: 'allmocks'
+    template: 'mobile'
+    dir: 'mobile'
+    name_expr: 'record["asc"]'
+    title: 'title'
+
+  - data: 'allmocks'
+    template: '1year'
+    dir: '1year'
+    name_expr: 'record["asc"]'
+    title: 'title'
