@@ -16,12 +16,16 @@
 .mycardmore    {padding: 0em 4em 0.25em 3em; }
 .mycard p      {margin-bottom: 0.5rem}
 .mymark        {position: absolute; top: 1em; right: 1em; font-weight: bold}
-.mycardbody i  {color: #DCDCDC; font-size: 80%; padding: 0 0.3em;}
+.mycardbody i  {color: #DCDCDC; font-size: 80%; padding: 0 0.1em;}
 .mycard i.fa-chevron-down {color: blue; position: absolute; bottom: 1em; right: 1em;}
 .mycard i.fa-chevron-up   {color: blue; background: white; position: absolute; bottom: 1em; right: 1em;}
 
 .table .elements th {font-weight: normal; background: rgba(0, 0, 0, .02);}
 
+
+@media (min-width: 992px) { 
+	.fakeMobile {max-width: 411px}
+}
 
 
 
