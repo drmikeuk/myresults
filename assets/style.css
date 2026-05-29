@@ -12,7 +12,7 @@
 /* mobile */
 .collapsing    { transition: none !important;}
 .mycard        {border-bottom: 2px solid #ccc; position: relative}
-.mycardbody    {padding: 1em 4em 0 1em; }
+.mycardbody    {padding: 1em 4em 0 0em; }
 .mycardmore    {padding: 0em 4em 0.25em 3em; }
 .mycard p      {margin-bottom: 0.5rem}
 .mymark        {position: absolute; top: 1em; right: 1em; font-weight: bold}
