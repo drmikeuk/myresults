@@ -1,9 +1,26 @@
 /* my styles */
 .header {background: #eee; border-bottom: 5px solid #ddd}
-.footer {background: #efefef; padding: 3em 0 2em;   margin-top: 6em}
+.footer {background: #efefef; padding: 3em 0 2em;   margin-top: 8em}
 
 .custom-select {width: auto}
 
+/* tweak navbar */
+.navbar-expand-lg {justify-content: flex-start;}
+.navbar-brand     {margin-right: 0.6rem}
+
+
+/* mobile */
+.collapsing    { transition: none !important;}
+.mycard        {border-bottom: 2px solid #ccc; position: relative}
+.mycardbody    {padding: 1em 4em 0 1em; }
+.mycardmore    {padding: 0em 4em 0.25em 3em; }
+.mycard p      {margin-bottom: 0.5rem}
+.mymark        {position: absolute; top: 1em; right: 1em; font-weight: bold}
+.mycardbody i  {color: #DCDCDC; font-size: 80%; padding: 0 0.3em;}
+.mycard i.fa-chevron-down {color: blue; position: absolute; bottom: 1em; right: 1em;}
+.mycard i.fa-chevron-up   {color: blue; background: white; position: absolute; bottom: 1em; right: 1em;}
+
+.table .elements th {font-weight: normal; background: rgba(0, 0, 0, .02);}
 
 
 

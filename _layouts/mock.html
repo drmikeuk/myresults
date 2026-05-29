@@ -1,6 +1,6 @@
 ---
 layout: default
-brand: mocks
+brand: Mocks
 stub: mock
 ---
 
@@ -25,7 +25,7 @@ stub: mock
 
 <!-- PROGRESSION -->   
 {% if page.progression == "y" %}
-{% assign asc = page.ascInclude | append: ".html" %}
+{% assign asc = page.ascInclude | append: ".original.html" %}
 {% assign progression = page.progressionInclude | append: "Header.html" %}
 <h2>Progression</h2>
 {% include {{asc}} %}
@@ -47,7 +47,7 @@ Marks for assessments taken in the next academic year will show against original
 
 <!-- PROGRESSION FOOTER -->   
 {% if page.progression == "y" %}
-{% assign progression = page.progressionInclude | append: "Footer.html" %}
+{% assign progression = page.progressionInclude | append: "Footer.original.html" %}
 {% include {{progression}} %}
 {% endif %}
 

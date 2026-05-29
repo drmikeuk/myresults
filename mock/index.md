@@ -1,6 +1,7 @@
 ---
 layout: home
-title: Mocks
+title: Mocks v1
+brand: Mocks
 ---
 
 {% include scenarios.md %}

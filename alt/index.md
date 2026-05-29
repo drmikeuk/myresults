@@ -1,5 +1,6 @@
 ---
 layout: home
+brand: Mocks
 title: Alternative mocks
 ---
 

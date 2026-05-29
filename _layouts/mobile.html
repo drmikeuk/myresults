@@ -1,6 +1,6 @@
 ---
 layout: default
-brand: mobile
+brand: Mobile
 stub: mobile
 ---
 
@@ -39,10 +39,12 @@ stub: mobile
 <p>Your marks will appear below once they’re published.<br/>
 Marks for assessments taken in the next academic year will show against original year.</p>
 
-{% assign marks = page.marksInclude | append: ".html" %}
+{% assign marks = page.marksInclude | append: ".mobile.html" %}
 {% include {{marks}} %}
 
-<p>If you have queries about your module results, please contact either your Personal Tutor, Here For You Guides or Student Services.</p>
+<!-- <p>If you have queries about your module results, please contact either your Personal Tutor, Here For You Guides or Student Services.</p>-->
+<p>Results are correct at the time of publication but may change in exceptional circumstances. You will be notified via your University email if this happens.
+</p>
 
 
 <!-- PROGRESSION FOOTER -->   
