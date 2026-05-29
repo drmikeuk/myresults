@@ -42,7 +42,23 @@ Marks for assessments taken in the next academic year will show against original
 {% assign marks = page.marksInclude | append: ".html" %}
 {% include {{marks}} %}
 
-<p>If you have queries about your module results, please contact either your Personal Tutor, Here For You Guides or Student Services.</p>
+<!-- <p>If you have queries about your module results, please contact either your Personal Tutor, Here For You Guides or Student Services.</p>-->
+
+{% if page.title == "Exclusions semester 1" %}
+<h3>Unavailable marks</h3>
+<ul>
+  <li>CHEM2006  Principles in Analytical Chemistry &mdash; awaiting EC outcome</li>
+</ul>
+{% endif %}
+
+{% if page.title == "Exclusions semester 2" %}
+<h3>Unavailable marks</h3>
+<ul>
+  <li>CHEM2003  Core Laboratory Work A &mdash; awaiting EC outcome</li>
+  <li>CHEM2017  Energy, Spectroscopy, and Solid State Chemistry &mdash; awaiting marks</li>
+</ul>
+{% endif %}
+
 
 
 <!-- PROGRESSION FOOTER -->   
