@@ -1,9 +1,12 @@
 /* my styles */
 .header {background: #eee; border-bottom: 5px solid #ddd}
-.footer {background: #efefef; padding: 3em 0 2em;   margin-top: 6em}
+.footer {background: #efefef; padding: 3em 0 2em;   margin-top: 8em}
 
 .custom-select {width: auto}
 
+/* tweak navbar */
+.navbar-expand-lg {justify-content: flex-start;}
+.navbar-brand     {margin-right: 0.6rem}
 
 
 /* mobile */
