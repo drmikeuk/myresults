@@ -36,29 +36,67 @@ stub: alt
 
 <!-- MARKS -->   
 <h2>Marks</h2>
-<p style="font-size: 85%">Your marks will appear below once published.<br/>
-Marks for assessments taken in the next academic year will show against the original year.</p>
+<p>Your marks will appear below once published. Marks for assessments taken in the next academic year will show against the original year.<br/>
+Marks are correct at the time of publication but may change in exceptional circumstances. You will be notified via your University email if this happens.</p>
 
 {% assign marks = page.marksInclude | append: ".html" %}
 {% include {{marks}} %}
 
-<!-- <p>If you have queries about your module results, please contact either your Personal Tutor, Here For You Guides or Student Services.</p>-->
+<!-- <p>If you have queries about your module results, please contact either your Personal Tutor, Here For You Guides or Student Services.</p>
 <p>Results are correct at the time of publication but may change in exceptional circumstances. You will be notified via your University email if this happens.
-</p>
+</p>-->
 
 
 {% if page.title == "Exclusions semester 1" %}
 <h3>Unavailable marks</h3>
-<ul>
+<!--<ul>
   <li>CHEM2006  Principles in Analytical Chemistry &mdash; awaiting EC outcome</li>
-</ul>
+</ul>-->
+<table class="table table-sm table-hover">
+<thead>
+  <tr>
+  <th>Module</th>
+  <th>Reason</th>
+  <th>Comment</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+  <td>CHEM2006  Principles in Analytical Chemistry</td>
+  <td>EC pending</td>
+  <td>awaiting EC outcome</td>
+  </tr>
+</tbody>
+</table>
 {% endif %}
 {% if page.title == "Exclusions semester 2" %}
 <h3>Unavailable marks</h3>
-<ul>
+<!--<ul>
   <li>CHEM2003  Core Laboratory Work A &mdash; awaiting EC outcome</li>
   <li>CHEM2017  Energy, Spectroscopy, and Solid State Chemistry &mdash; awaiting marks</li>
-</ul>
+</ul>-->
+<table class="table table-sm table-hover">
+<thead>
+  <tr>
+  <th>Module</th>
+  <th>Reason</th>
+  <th>Comment</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+  <td>CHEM2003  Core Laboratory Work A</td>
+  <td>EC pending</td>
+  <td>awaiting EC outcome</td>
+  </tr>
+  <tr>
+  <td>CHEM2017  Energy, Spectroscopy, and Solid State Chemistry</td>
+  <td>Assessment under review</td>
+  <td>awaiting marks</td>
+  </tr>
+</tbody>
+</table>
+
 {% endif %}
 
 
