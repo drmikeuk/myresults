@@ -29,19 +29,21 @@
 28,1027 unsatisfactory lower award,1027,y,marksFail,1027,4Termination
 29,1028 unsatisfactory transfer progress,1028,y,marksFail,1028,1progressing
 30,1029 unsatisfactory transfer reassess,1029,y,marksFail,1029,2proceeding
-31,1030 transfer no progression,1030,y,marksFail,1030,5pending
-32,1033 mid stage PT ,1033,y,marksFail,1033,5pending
-33,1038 unable to confirm,1038,y,marksFail,1038,5pending
+31,1030 transfer no progression,1030,y,marksFailNoOutcomes,1030,5pending
+32,1033 mid stage PT ,1033,y,marksFailNoOutcomes,1033,5pending
+33,1038 unable to confirm,1038,y,marksFailNoOutcomes,1038,5pending
 34,1041 unsatisfactory 1st sit EC in attend,1041,y,marksFail,1041,2proceeding
 35,1042 unsatisfactory 1st sit EC not in attend,1042,y,marksFail,1042,3proceedingNotAttendance
 36,1046 unsatisfactory resit not in attend,1046,y,marksFail,1046,3proceedingNotAttendance
 37,1047 unsatisfactory 1st sit in attend,1047,y,marksFail,1047,2proceeding
 38,1048 unsatisfactory 1st sit not in attend,1048,y,marksFail,1048,3proceedingNotAttendance
 39,1049 unsatisfactory 2nd reassess in attend,1049,y,marksFail,1049,2proceeding
-40,1095 unable to confirm,1095,y,marksFail,1095-9,5pending
-41,1096 unable to confirm,1096,y,marksFail,1095-9,5pending
-42,1097 unable to confirm,1097,y,marksFail,1095-9,5pending
-43,1098 unable to confirm,1098,y,marksFail,1095-9,5pending
-44,1099 unable to confirm,1099,y,marksFail,1095-9,5pending
+40,1095 unable to confirm,1095,y,marksFailNoOutcomes,1095-9,5pending
+41,1096 unable to confirm,1096,y,marksFailNoOutcomes,1095-9,5pending
+42,1097 unable to confirm,1097,y,marksFailNoOutcomes,1095-9,5pending
+43,1098 unable to confirm,1098,y,marksFailNoOutcomes,1095-9,5pending
+44,1099 unable to confirm,1099,y,marksFailNoOutcomes,1095-9,5pending
 101,1002 satisfactory and enrolments,1002x,y,marksProgress2,1002,1progressing
-101,Enrolments,1002xx,n,marksProgress2,,
+102,Enrolments yr3,Enrolmentsx,n,marksProgress2,,
+103,1013 resits,1013x,y,marksFail,1013,2proceedingx
+104,1013 resits holding,1013xx,y,marksFail,1013xx,2proceedingxx
