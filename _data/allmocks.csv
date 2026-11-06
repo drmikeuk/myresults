@@ -47,3 +47,5 @@
 102,Enrolments yr3,Enrolmentsx,n,marksProgress2,,
 103,1013 resits,1013x,y,marksFail,1013,2proceedingx
 104,1013 resits holding,1013xx,y,marksFail,1013xx,2proceedingxx
+105,No ASC,noASC,y,marksFail,noASC,5pendingX
+106,Blackout period,blackout,y,marksFail,blackout,5pendingX
